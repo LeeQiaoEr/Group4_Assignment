@@ -1,0 +1,1946 @@
+body {
+  min-height: 75rem;
+  padding-top: 4.5rem;
+  background-color: #f6ece3;
+}
+
+/* __________________________________________________________________________Navigation Bar_________________________________________________________________________________________________ */
+.nav {
+  margin-left: 850px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #3B3D3E;
+  background-color: #ffc84f;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
+
+.nav-pills .nav-link {
+  color: #3B3D3E;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 500;
+}
+
+/* __________________________________________________________________________________________________________________________________________________________________________________________ */
+
+
+/* ___________________________________________________________________________Service Page______________________________________________________________________________________________________ */
+/* TONG EN PUT THE CODE - 29 NOV-3 DEC 2021 START
+-------------------------------------------------- */
+/* Content -Service Page */
+/* carousel */
+body {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
+
+.carousel {
+  margin-bottom: 4rem;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 45rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 45rem;
+
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+h1 {
+    display: block;
+    font-size: 65px;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'Maven Pro', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    color: #FFCB4F;
+    letter-spacing: -1.5px;
+
+}
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+/* RESPONSIVE CSS */
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+/* Topic */
+.ourservice {
+  position: absolute;
+  width: 1304px;
+  height: 154px;
+  left: -800px;
+  top: 1100px;
+  position: absolute;
+  font-family: 'Maven Pro', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 124px;
+  line-height: 146px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: -1.5px;
+  color: #FFCB4F;
+}
+
+.service {
+  margin-top: 750px;
+  position: absolute;
+  width: 703px;
+  height: 67px;
+  left: calc(50% - 600px/2 - 336.5px);
+  top: 80px;
+  font-family: 'Maven Pro', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1px;
+  color: #000000
+}
+
+.ourservice {
+  position: absolute;
+  width: 1304px;
+  height: 154px;
+  left: 40px;
+  top: 950px;
+  font-family: 'Maven Pro', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 146px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: -1.5px;
+  color: #FFCB4F;
+}
+
+.service {
+  position: absolute;
+  width: 817px;
+  height: 67px;
+  left: 50px;
+  top: 275px;
+  font-family: 'Maven Pro', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1px;
+  color: #000000;
+}
+
+/* service button */
+.col-sm {
+  display: inline-block;
+  transform: translateX(0%)translateY(100%);
+}
+
+.col {
+  display: inline-block;
+  transform: translateX(15%)translateY(130%);
+}
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+
+}
+
+#myImg:hover {
+  opacity: 0.7;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(0)
+  }
+
+  to {
+    -webkit-transform: scale(1)
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0)
+  }
+
+  to {
+    transform: scale(1)
+  }
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%;
+  }
+}
+
+/* Topic */
+.ourservice {
+  position: absolute;
+  width: 965px;
+  height: 154px;
+  left: calc(50% - 965px/2 - 211.5px);
+  top: 283px;
+  font-family: 'Maven Pro', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 124px;
+  line-height: 146px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: -1.5px;
+  color: #FFCB4F;
+}
+
+.service {
+  position: absolute;
+  width: 703px;
+  height: 67px;
+  left: calc(50% - 703px/2 - 342.5px);
+  top: 372px;
+  font-family: 'Maven Pro', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1px;
+  color: #000000;
+}
+
+/*中间的全部东西（Content 4的）*/
+.borderbg {
+  position: absolute;
+  height: 2200px;
+  width: 1360px;
+  background-color: #F3E3D7;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  transform: translateY(60%);
+}
+
+.icon {
+  align-items: center;
+  transform: translateX(45%);
+}
+
+.dogimg {
+  padding-top: 100px;
+}
+
+.whichservice {
+  color: #F3E3D7;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 900;
+  font-size: 200px;
+  letter-spacing: -1.5px;
+  z-index: -1;
+}
+
+h2 {
+  padding-left: 70px;
+  padding-top: 100px;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  color: #000000;
+}
+
+h3 {
+  padding-left: 70px;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  color: #636363;
+}
+
+.nothing {
+  padding-left: 70px;
+  position: absolute;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 17px;
+  font-weight: 900;
+  color: #8B8B8B;
+}
+
+.cat {
+  padding-top: 150px;
+  position: absolute;
+  color: #F3E3D7;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 900;
+  font-size: 200px;
+  z-index: -1;
+}
+
+h4 {
+  padding-left: 70px;
+  padding-top: 300px;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.catimg {
+  padding-left: 100px;
+  padding-top: 200px;
+}
+/* TONG EN PUT THE CODE - 3 DEC 2021 END
+-------------------------------------------------- */
+/* ______________________________________________________________________________________________________________________________________________________________________________________________ */
+
+
+/* ___________________________________________________________________________Success Page______________________________________________________________________________________________________ */
+/* JUN BAO PUT THE CODE - 29 NOV-3 DEC 2021 START
+-------------------------------------------------- */
+/* Bottom Nav Bar */
+.bottom_wave_success {
+  position: absolute;
+  top: 3000px;
+  left: -11px;
+}
+
+.footertitle01_success {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 22px;
+  position: absolute;
+  top: 3120px;
+  left: 30px;
+  width: 444px;
+  height: 23px;
+  text-align: justify;
+  letter-spacing: .1px;
+  color: #3b3d3e;
+}
+
+.footercontent01_success {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 15px;
+  position: absolute;
+  top: 3150px;
+  left: 30px;
+  width: 300px;
+  height: 51px;
+  text-align: justify;
+  letter-spacing: .1px;
+  color: #3b3d3e;
+}
+
+.footertitle02_success {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 22px;
+  position: absolute;
+  top: 3400px;
+  left: 28px;
+  width: 444px;
+  height: 23px;
+  text-align: justify;
+  letter-spacing: .1px;
+  color: #3b3d3e;
+}
+
+.footercontent02_success {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 23px;
+  position: absolute;
+  top: 3430px;
+  left: 29px;
+  width: 326px;
+  height: 51px;
+  text-align: justify;
+  letter-spacing: .1px;
+  color: #3b3d3e;
+}
+
+.email_icon1_success {
+  position: absolute;
+  top: 3220px;
+  left: 26px;
+  width: 40px;
+  height: 40px;
+}
+
+.phone_icon1_success {
+  position: absolute;
+  top: 3270px;
+  left: 26px;
+  width: 40px;
+  height: 40px;
+}
+
+.facebook_icon1_success {
+  position: absolute;
+  top: 3320px;
+  left: 26px;
+  width: 40px;
+  height: 40px;
+}
+
+.email_icon2_success {
+  position: absolute;
+  top: 3510px;
+  left: 26px;
+  width: 40px;
+  height: 40px;
+}
+
+.phone_icon2_success {
+  position: absolute;
+  top: 3560px;
+  left: 26px;
+  width: 40px;
+  height: 40px;
+}
+
+.facebook_icon2_success {
+  position: absolute;
+  top: 3610px;
+  left: 26px;
+  width: 40px;
+  height: 40px;
+}
+
+.info1_success {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 19px;
+  position: absolute;
+  top: 3235px;
+  left: 90px;
+  display: flex;
+  align-items: center;
+  width: 328px;
+  height: 20px;
+  text-align: justify;
+  letter-spacing: .1px;
+  color: #3b3d3e;
+}
+
+.phone1_success {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 19px;
+  position: absolute;
+  top: 3285px;
+  left: 90px;
+  display: flex;
+  align-items: center;
+  width: 328px;
+  height: 20px;
+  text-align: justify;
+  letter-spacing: .1px;
+  color: #3b3d3e;
+}
+
+.facebook1_success {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 19px;
+  position: absolute;
+  top: 3335px;
+  left: 90px;
+  display: flex;
+  align-items: center;
+  width: 500px;
+  height: 20px;
+  text-align: right;
+  letter-spacing: .1px;
+  color: #3b3d3e;
+}
+
+.info2_success {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 19px;
+  position: absolute;
+  top: 3525px;
+  left: 90px;
+  display: flex;
+  align-items: center;
+  width: 328px;
+  height: 20px;
+  text-align: justify;
+  letter-spacing: .1px;
+  color: #3b3d3e;
+}
+
+.phone2_success {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 19px;
+  position: absolute;
+  top: 3575px;
+  left: 90px;
+  display: flex;
+  align-items: center;
+  width: 328px;
+  height: 20px;
+  text-align: justify;
+  letter-spacing: .1px;
+  color: #3b3d3e;
+}
+
+.facebook2_success {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 19px;
+  position: absolute;
+  top: 3625px;
+  left: 90px;
+  display: flex;
+  align-items: center;
+  width: 500px;
+  height: 20px;
+  text-align: right;
+  letter-spacing: .1px;
+  color: #3b3d3e;
+}
+
+.footerline_success {
+  position: absolute;
+  top: 3400px;
+  left: 250px;
+  width: 490px;
+  height: 0;
+  transform: rotate(90deg);
+  opacity: .4;
+  border: 1px solid #000;
+}
+
+.date1_success {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 40px;
+  position: absolute;
+  top: 3250px;
+  left: 550px;
+  display: flex;
+  align-items: center;
+  width: 560px;
+  height: 48px;
+  letter-spacing: .1px;
+  color: #3b3d3e;
+}
+
+.date2_success {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 40px;
+  position: absolute;
+  top: 3400px;
+  left: 550px;
+  display: flex;
+  align-items: center;
+  width: 560px;
+  height: 48px;
+  letter-spacing: .1px;
+  color: #3b3d3e;
+}
+
+.date3_success {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 40px;
+  position: absolute;
+  top: 3520px;
+  left: 550px;
+  display: flex;
+  align-items: center;
+  width: 560px;
+  height: 48px;
+  letter-spacing: .1px;
+  color: #3b3d3e;
+}
+
+.time1_success {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 24px;
+  position: absolute;
+  top: 3300px;
+  left: 550px;
+  display: flex;
+  align-items: center;
+  width: 560px;
+  height: 48px;
+  letter-spacing: .1px;
+  color: #636363;
+}
+
+.time2_success {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 24px;
+  position: absolute;
+  top: 3450px;
+  left: 550px;
+  display: flex;
+  align-items: center;
+  width: 560px;
+  height: 48px;
+  letter-spacing: .1px;
+  color: #636363;
+}
+
+.time3_success {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 24px;
+  position: absolute;
+  top: 3575px;
+  left: 550px;
+  display: flex;
+  align-items: center;
+  width: 560px;
+  height: 48px;
+  letter-spacing: .1px;
+  color: #636363;
+}
+
+.branch_success {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 24px;
+  position: absolute;
+  top: 3340px;
+  left: 555px;
+  width: 676px;
+  height: 32px;
+  letter-spacing: .1px;
+  color: #636363;
+}
+
+.footerpicture_success {
+  position: absolute;
+  top: 2647px;
+  left: 600px;
+  width: 200px;
+  height: 480.29px;
+  transform: rotate(-3.5deg);
+}
+
+.contact_btn_success {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  font-style: normal;
+  line-height: 21px;
+  position: absolute;
+  top: 3650px;
+  left: 560px;
+  width: 338px;
+  height: 55px;
+  letter-spacing: .1px;
+  color: #636363;
+}
+/* JUN BAO PUT THE CODE - 3 DEC 2021 END
+-------------------------------------------------- */
+/* ______________________________________________________________________________________________________________________________________________________________________________________________ */
+
+
+
+/* ___________________________________________________________________________Contact Page______________________________________________________________________________________________________ */
+/* KELLY PUT THE CODE - 29 NOV-3 DEC 2021 START
+-------------------------------------------------- */
+/* contact-css */
+.openingtime {
+  position: absolute;
+  width: 976px;
+  height: 154px;
+  top: 203px;
+  left: 32px;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 900;
+  font-size: 120px;
+  color: #FFCB4F;
+  letter-spacing: -1.5px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.eachevery {
+  position: absolute;
+  width: 703px;
+  height: 67px;
+  top: 268px;
+  left: 32px;
+  color: #3B3D3E;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 56px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  align-items: flex-end;
+}
+
+.image-01 {
+  position: absolute;
+  width: 708px;
+  height: 908px;
+  top: 616px;
+  left: 0px;
+}
+
+.closetime {
+  position: absolute;
+  top: 672px;
+  left: 736px;
+  color: #3B3D3E;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  align-items: flex-end;
+}
+
+.image-02 {
+  position: absolute;
+  width: 657px;
+  height: 379px;
+  top: 704px;
+  left: 579px;
+}
+
+.timetable {
+  position: absolute;
+  width: 560px;
+  height: 380px;
+  top: 456px;
+  left: 191px;
+  align-items: flex-end;
+}
+
+.opendate {
+  color: #3B3D3E;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 36px;
+}
+
+.opentime {
+  color: #3B3D3E;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
+.weekday {
+  height: 140px;
+}
+
+.weekend {
+  height: 140px;
+}
+
+.holiday {
+  height: 140px;
+}
+
+.contactus {
+  position: absolute;
+  width: 855px;
+  height: 154px;
+  top: 2064px;
+  left: 532px;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 900;
+  font-size: 120px;
+  color: #FFCB4F;
+  letter-spacing: -1.5px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.messageus {
+  position: absolute;
+  width: 703px;
+  height: 67px;
+  top: 2128px;
+  left: 535px;
+  color: #3B3D3E;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 56px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  align-items: flex-end;
+}
+
+.image-04 {
+  position: absolute;
+  width: 708px;
+  height: 908px;
+  top: 2256px;
+  left: 0px;
+}
+
+.form {
+  position: absolute;
+  width: 464px;
+  height: 80px;
+  top: 2469px;
+  left: 728px;
+}
+
+.form-contol-lg {
+  border-radius: 0.25rem;
+  font-size: 1.35rem;
+}
+
+.form-control {
+  color: #3B3D3E;
+  border: transparent;
+}
+
+.mb-3 {
+  height: 48px;
+}
+
+.button {
+  position: absolute;
+  width: 180px;
+  height: 38px;
+  top: 272px;
+  left: 0px;
+}
+
+.btn-primary {
+  color: #3B3D3E;
+  background-color: #FFEAB8;
+  border-color: #FFCB4F;
+  border-style: solid;
+  border-width: 3px;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 24px;
+}
+
+.btn {
+  width: 270px;
+  height: 48px;
+}
+
+/* __________________________________________________________________________FOOTER Contact Page__________________________________________________________________________________________________ */
+/* KELLY PUT THE CODE - 29 NOV-3 DEC 2021 START
+-------------------------------------------------- */
+/* footer */
+.bottom_wave_contact {
+  position: absolute;
+  top: 1141px;
+  left: -731px;
+}
+
+.footertitle01_contact {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 22px;
+  position: absolute;
+  top: 1216px;
+  left: -699px;
+  width: 444px;
+  height: 23px;
+  text-align: justify;
+  letter-spacing: .1px;
+  color: #3b3d3e;
+}
+
+.footercontent01_contact {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 15px;
+  position: absolute;
+  top: 1245px;
+  left: -699px;
+  width: 300px;
+  height: 51px;
+  text-align: justify;
+  letter-spacing: .1px;
+  color: #3b3d3e;
+}
+
+.footertitle02_contact {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 22px;
+  position: absolute;
+  top: 1478px;
+  left: -699px;
+  width: 444px;
+  height: 23px;
+  text-align: justify;
+  letter-spacing: .1px;
+  color: #3b3d3e;
+}
+
+.footercontent02_contact {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 23px;
+  position: absolute;
+  top: 1503px;
+  left: -699px;
+  width: 326px;
+  height: 51px;
+  text-align: justify;
+  letter-spacing: .1px;
+  color: #3b3d3e;
+}
+
+.email_icon1_contact {
+  position: absolute;
+  top: 1308px;
+  left: -699px;
+  width: 40px;
+  height: 40px;
+}
+
+.phone_icon1_contact {
+  position: absolute;
+  top: 1358px;
+  left: -699px;
+  width: 40px;
+  height: 40px;
+}
+
+.facebook_icon1_contact {
+  position: absolute;
+  top: 1418px;
+  left: -699px;
+  width: 40px;
+  height: 40px;
+}
+
+.email_icon2_contact {
+  position: absolute;
+  top: 4042px;
+  left: 26px;
+  width: 40px;
+  height: 40px;
+}
+
+.phone_icon2_contact {
+  position: absolute;
+  top: 4095px;
+  left: 26px;
+  width: 40px;
+  height: 40px;
+}
+
+.facebook_icon2_contact {
+  position: absolute;
+  top: 4153px;
+  left: 26px;
+  width: 40px;
+  height: 40px;
+}
+
+.info1_contact {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 19px;
+  position: absolute;
+  top: 3791px;
+  left: 90px;
+  display: flex;
+  align-items: center;
+  width: 328px;
+  height: 20px;
+  text-align: justify;
+  letter-spacing: .1px;
+  color: #3b3d3e;
+}
+
+.phone1_contact {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 19px;
+  position: absolute;
+  top: 3841px;
+  left: 90px;
+  display: flex;
+  align-items: center;
+  width: 328px;
+  height: 20px;
+  text-align: justify;
+  letter-spacing: .1px;
+  color: #3b3d3e;
+}
+
+.facebook1_contact {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 19px;
+  position: absolute;
+  top: 3903px;
+  left: 90px;
+  display: flex;
+  align-items: center;
+  width: 500px;
+  height: 20px;
+  text-align: right;
+  letter-spacing: .1px;
+  color: #3b3d3e;
+}
+
+.info2_contact {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 19px;
+  position: absolute;
+  top: 4056px;
+  left: 90px;
+  display: flex;
+  align-items: center;
+  width: 328px;
+  height: 20px;
+  text-align: justify;
+  letter-spacing: .1px;
+  color: #3b3d3e;
+}
+
+.phone2_contact {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 19px;
+  position: absolute;
+  top: 4105px;
+  left: 90px;
+  display: flex;
+  align-items: center;
+  width: 328px;
+  height: 20px;
+  text-align: justify;
+  letter-spacing: .1px;
+  color: #3b3d3e;
+}
+
+.facebook2_contact {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 19px;
+  position: absolute;
+  top: 4164px;
+  left: 90px;
+  display: flex;
+  align-items: center;
+  width: 500px;
+  height: 20px;
+  text-align: right;
+  letter-spacing: .1px;
+  color: #3b3d3e;
+}
+
+.footerline_contact {
+  position: absolute;
+  top: 3961px;
+  left: 250px;
+  width: 490px;
+  height: 0;
+  transform: rotate(90deg);
+  opacity: .4;
+  border: 1px solid #000;
+}
+
+.date1_contact {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 40px;
+  position: absolute;
+  top: 3792px;
+  left: 550px;
+  display: flex;
+  align-items: center;
+  width: 560px;
+  height: 48px;
+  letter-spacing: .1px;
+  color: #3b3d3e;
+}
+
+.date2_contact {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 40px;
+  position: absolute;
+  top: 3942px;
+  left: 550px;
+  display: flex;
+  align-items: center;
+  width: 560px;
+  height: 48px;
+  letter-spacing: .1px;
+  color: #3b3d3e;
+}
+
+.date3_contact {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 40px;
+  position: absolute;
+  top: 4092px;
+  left: 550px;
+  display: flex;
+  align-items: center;
+  width: 560px;
+  height: 48px;
+  letter-spacing: .1px;
+  color: #3b3d3e;
+}
+
+.time1_contact {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 24px;
+  position: absolute;
+  top: 3832px;
+  left: 550px;
+  display: flex;
+  align-items: center;
+  width: 560px;
+  height: 48px;
+  letter-spacing: .1px;
+  color: #636363;
+}
+
+.time2_contact {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 24px;
+  position: absolute;
+  top: 3982px;
+  left: 550px;
+  display: flex;
+  align-items: center;
+  width: 560px;
+  height: 48px;
+  letter-spacing: .1px;
+  color: #636363;
+}
+
+.time3_contact {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 24px;
+  position: absolute;
+  top: 4132px;
+  left: 550px;
+  display: flex;
+  align-items: center;
+  width: 560px;
+  height: 48px;
+  letter-spacing: .1px;
+  color: #636363;
+}
+
+.branch_contact {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 24px;
+  position: absolute;
+  top: 3882px;
+  left: 555px;
+  width: 676px;
+  height: 32px;
+  letter-spacing: .1px;
+  color: #636363;
+}
+
+.footerpicture_contact {
+  position: absolute;
+  top: 3260px;
+  left: 700px;
+  width: 200px;
+  height: 480.29px;
+  transform: rotate(-6deg);
+}
+
+.contact_btn_contact {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  font-style: normal;
+  line-height: 21px;
+  position: absolute;
+  top: 4182px;
+  left: 560px;
+  width: 338px;
+  height: 55px;
+  letter-spacing: .1px;
+  color: #636363;
+}
+/*  KELLY PUT THE CODE - 3 DEC 2021 END
+-------------------------------------------------- */
+/* _____________________________________________________________________________________________________________________________________________________________________________________________ */
+
+
+
+/* __________________________________________________________________________New Patient Form__________________________________________________________________________________________________ */
+/* QIAO ER PUT THE CODE - 29 NOV-3 DEC 2021 START
+-------------------------------------------------- */
+/* Content 2- Topic Owner New Patient Form*/
+.patientform {
+  color: #FFCB4F;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  margin-left: 50px;
+  padding-top: 20px;
+}
+
+.ownerinformation {
+  color: #3B3D3E;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: -35px;
+  margin-left: 50px;
+  padding-bottom: 40px;
+}
+
+/* Content 3-Form*/
+.ownerform_border{
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 800px;
+  width: 1200px;
+  background-color: #f6ece3;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 600px;
+  bottom: 0;
+  border: 8px solid transparent;
+  box-shadow: 0 0 0 50px #F3E3D7,
+              inset 0 0 0 0;
+}
+
+.textform{
+  padding: 25px, 60px, 70px, 30px;
+}
+
+
+.form-control {
+  border-radius: 10px;
+  border: none;
+  color: #3B3D3E;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.row .container {
+  flex-basis: 48%;
+}
+
+.form-container {
+  color: #3B3D3E;
+  font-family: 'Maven Pro', sans-serif;
+  border-radius: 10px;
+}
+
+.nextbtn {
+  text-align: center;
+  width: 180%;
+  left: 42%;
+  right: 58%;
+}
+
+.sizenextbtn{
+  padding: 0.375rem 4.75rem;
+}
+
+.btn-secondary {
+  color: #3B3D3E;
+  background-color: #FFEAB8;
+  border-color: #FFCB4F;
+  border-radius: 0.25rem;
+}
+
+.btn-secondary:hover {
+  color: #FFFFFF;
+  background-color: #FFCB4F;
+  border: none;
+}
+
+.patientform_border{
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 800px;
+  width: 1200px;
+  background-color: #f6ece3;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 600px;
+  bottom: 0;
+  border: 8px solid transparent;
+  box-shadow: 0 0 0 50px #F3E3D7,
+              inset 0 0 0 0;
+  display: grid;
+}
+
+.sizebtn{
+  padding: 0.375rem 4.75rem;
+}
+
+/* QIAO ER PUT THE CODE - 3 DEC 2021 END
+-------------------------------------------------- */
+/* _________________________________________________________________________________________________________________________________________________________________________________________ */
+
+
+
+/* __________________________________________________________________________Welcome page___________________________________________________________________________________________________ */
+/* JUN BAO PUT THE CODE - 29 NOV-3 DEC 2021 START
+-------------------------------------------------- */
+
+.middle-welcome img
+{
+    position: absolute;  top: 70px;
+ left: 270px;  width: 1000px;  height: 600px;
+}
+
+.vets
+{ font-family: 'Maven Pro', sans-serif;  font-size: 88px;  font-weight: bold;  font-style: normal;  line-height: 103px;
+
+    position: absolute;  top: 58px;  left: 265px;  display: flex;  align-items: center;  width: 1500px;  height: 1px;  text-align: center;  color: #ffcb4f;
+}
+
+.slogon
+{ font-family: 'Maven Pro', sans-serif;  font-size: 36px;  font-weight: bold;  font-style: normal;  line-height: 42px;
+
+    position: absolute;  top: 670px;  left: 270px;  display: flex;  align-items: center;  width: 600px;  height: 49px;  text-align: center;  color: #ffcb4f;
+}
+
+.welcome_borderbox
+{
+    position: absolute;  top: 100px;  left: 220px;  box-sizing: border-box;
+ width: 1100px;  height: 550px;  border: 3px solid #fff;
+}
+
+/* __________________________________________________________________________About us page___________________________________________________________________________________________________ */
+
+.store_picture
+{
+    position: absolute;  top: 150px;  left: 0;  border-radius: 20px;
+}
+
+.aboutclinic
+{ font-family: 'Maven Pro', sans-serif;  font-size: 120px;  font-weight: 900;
+
+    position: absolute;  top: 20px;  left: 30px;  display: flex;  align-items: flex-end;
+ width: 1380px;  height: 154px;  letter-spacing: 4px;  color: #ffcb4f;
+}
+
+.introduction
+{ font-family: 'Maven Pro', sans-serif;  font-size: 32px;  font-weight: 500;  font-style: normal;  line-height: 50px;
+
+    position: absolute;  top: 150px;  left: 800px;  width: 550px;  height: 1164px;  letter-spacing: .1px;  color: #000;
+}
+
+
+.ourteam
+{ font-family: 'Maven Pro', sans-serif;  font-size: 124px;  font-weight: 900;
+
+    position: absolute;  top: 1300px;  left: 10px;  display: flex;  align-items: flex-end;
+ width: 976px;  height: 154px;  letter-spacing: -1.5px;  color: #ffcb4f;
+}
+
+.veterinarysurgeon
+{ font-family: 'Maven Pro', sans-serif;  font-size: 56px;  font-weight: 500;  font-style: normal;  line-height: 24px;
+
+    position: absolute;  top: 1350px;  left: 12px;  display: flex;  align-items: center;  width: 703px;  height: 67px;  letter-spacing: .1px;  color: #000;
+}
+
+.ourteam2
+{ font-family: 'Maven Pro', sans-serif;  font-size: 124px;  font-weight: 900;
+
+    position: absolute;  top: 2100px;  left: 10px;  display: flex;  align-items: flex-end;
+ width: 976px;  height: 154px;  letter-spacing: -1.5px;  color: #ffcb4f;
+}
+
+.veterinarysurgeonassistant
+{ font-family: 'Maven Pro', sans-serif;  font-size: 56px;  font-weight: 500;  font-style: normal;  line-height: 24px;
+
+    position: absolute;  top: 2150px;  left: 12px;  display: flex;  align-items: center;  width: 703px;  height: 67px;  letter-spacing: .1px;  color: #000;
+}
+
+/* __________________________________________________________________________FOOTER about us page___________________________________________________________________________________________________ */
+.bottom_wave
+{
+    position: absolute;  top: 3000px;
+ left: 0;
+}
+
+.footertitle01
+{ font-family: 'Maven Pro', sans-serif;  font-size: 16px;  font-weight: bold;  font-style: normal;  line-height: 22px;
+
+    position: absolute;  top: 3090px;  left: 30px;  width: 444px;  height: 23px;  text-align: justify;  letter-spacing: .1px;  color: #3b3d3e;
+}
+
+.footercontent01
+{ font-family: 'Maven Pro', sans-serif;  font-size: 16px;  font-weight: normal;  font-style: normal;  line-height: 15px;
+
+    position: absolute;  top: 3120px;  left: 30px;  width: 300px;  height: 51px;  text-align: justify;  letter-spacing: .1px;  color: #3b3d3e;
+}
+
+.footertitle02
+{ font-family: 'Maven Pro', sans-serif;  font-size: 16px;  font-weight: bold;  font-style: normal;  line-height: 22px;
+
+    position: absolute;  top: 3370px;  left: 28px;  width: 444px;  height: 23px;  text-align: justify;  letter-spacing: .1px;  color: #3b3d3e;
+}
+
+.footercontent02
+{ font-family: 'Maven Pro', sans-serif; font-size: 16px;  font-weight: normal; font-style: normal;  line-height: 23px;
+
+    position: absolute;  top: 3395px;  left: 29px;  width: 326px;  height: 51px;  text-align: justify;  letter-spacing: .1px;  color: #3b3d3e;
+}
+
+.email_icon1
+{
+    position: absolute;  top: 3195px;
+ left: 26px;  width: 40px;  height: 40px;
+}
+
+.phone_icon1
+{
+    position: absolute;  top: 3250px;
+ left: 26px;  width: 40px;  height: 40px;
+}
+
+.facebook_icon1
+{
+    position: absolute;  top: 3310px;
+ left: 26px;  width: 40px;  height: 40px;
+}
+
+.email_icon2
+{
+    position: absolute;  top: 3620px;
+ left: 26px;  width: 40px;  height: 40px;
+}
+
+.phone_icon2
+{
+    position: absolute;  top: 3670px;
+ left: 26px;  width: 40px;  height: 40px;
+}
+
+.facebook_icon2
+{
+    position: absolute;  top: 3730px;
+ left: 26px;  width: 40px;  height: 40px;
+}
+
+
+.info1
+{ font-family: 'Maven Pro', sans-serif;  font-size: 16px;  font-weight: normal;  font-style: normal;  line-height: 19px;
+
+    position: absolute;  top: 3360px;  left: 90px;  display: flex;  align-items: center;  width: 328px;  height: 20px;  text-align: justify;  letter-spacing: .1px;  color: #3b3d3e;
+}
+
+.phone1
+{ font-family: 'Maven Pro', sans-serif;  font-size: 16px;  font-weight: normal;  font-style: normal;  line-height: 19px;
+
+    position: absolute;  top: 3410px;  left: 90px;  display: flex;  align-items: center;  width: 328px;  height: 20px;  text-align: justify;  letter-spacing: .1px;  color: #3b3d3e;
+}
+
+.facebook1
+{ font-family: 'Maven Pro', sans-serif;  font-size: 16px;  font-weight: normal;  font-style: normal;  line-height: 19px;
+
+    position: absolute;  top: 3475px;  left: 90px;  display: flex;  align-items: center;  width: 500px;  height: 20px;  text-align: right;  letter-spacing: .1px;  color: #3b3d3e;
+}
+
+
+.info2
+{ font-family: 'Maven Pro', sans-serif;  font-size: 16px;  font-weight: normal;  font-style: normal;  line-height: 19px;
+
+    position: absolute;  top: 3635px;  left: 90px;  display: flex;  align-items: center;  width: 328px;  height: 20px;  text-align: justify;  letter-spacing: .1px;  color: #3b3d3e;
+}
+
+.phone2
+{ font-family: 'Maven Pro', sans-serif;  font-size: 16px;  font-weight: normal;  font-style: normal;  line-height: 19px;
+
+    position: absolute;  top: 3685px;  left: 90px;  display: flex;  align-items: center;  width: 328px;  height: 20px;  text-align: justify;  letter-spacing: .1px;  color: #3b3d3e;
+}
+
+.facebook2
+{ font-family: 'Maven Pro', sans-serif;  font-size: 16px;  font-weight: normal;  font-style: normal;  line-height: 19px;
+
+    position: absolute;  top: 3745px;  left: 90px;  display: flex;  align-items: center;  width: 500px;  height: 20px;  text-align: right;  letter-spacing: .1px;  color: #3b3d3e;
+}
+
+.footerline
+{
+    position: absolute;  top: 3550px;  left: 250px;  width: 490px;  height: 0;  transform: rotate(90deg);
+ opacity: .4;  border: 1px solid #000;
+}
+
+.date1
+{ font-family: 'Maven Pro', sans-serif;  font-size: 40px;  font-weight: 500;  font-style: normal;  line-height: 40px;
+
+    position: absolute;  top: 3350px;  left: 550px;  display: flex;  align-items: center;  width: 560px;  height: 48px;  letter-spacing: .1px;  color: #3b3d3e;
+}
+
+.date2
+{ font-family: 'Maven Pro', sans-serif;  font-size: 40px;  font-weight: 500;  font-style: normal;  line-height: 40px;
+
+    position: absolute;  top: 3500px;  left: 550px;  display: flex;  align-items: center;  width: 560px;  height: 48px;  letter-spacing: .1px;  color: #3b3d3e;
+}
+
+.date3
+{ font-family: 'Maven Pro', sans-serif;  font-size: 40px;  font-weight: 500;  font-style: normal;  line-height: 40px;
+
+    position: absolute;  top: 3650px;  left: 550px;  display: flex;  align-items: center;  width: 560px;  height: 48px;  letter-spacing: .1px;  color: #3b3d3e;
+}
+
+.time1
+{ font-family: 'Maven Pro', sans-serif;  font-size: 30px;  font-weight: normal;  font-style: normal;  line-height: 24px;
+
+    position: absolute;  top: 3390px;  left: 550px;  display: flex;  align-items: center;  width: 560px;  height: 48px;  letter-spacing: .1px;  color: #636363;
+}
+
+.time2
+{ font-family: 'Maven Pro', sans-serif;  font-size: 30px;  font-weight: normal;  font-style: normal;  line-height: 24px;
+
+    position: absolute;  top: 3540px;  left: 550px;  display: flex;  align-items: center;  width: 560px;  height: 48px;  letter-spacing: .1px;  color: #636363;
+}
+
+.time3
+{ font-family: 'Maven Pro', sans-serif;  font-size: 30px;  font-weight: normal;  font-style: normal;  line-height: 24px;
+
+    position: absolute;  top: 3690px;  left: 550px;  display: flex;  align-items: center;  width: 560px;  height: 48px;  letter-spacing: .1px;  color: #636363;
+}
+
+.branch
+{ font-family: 'Maven Pro', sans-serif;  font-size: 16px;  font-weight: 500;  font-style: normal;  line-height: 24px;
+
+    position: absolute;  top: 3430px;  left: 555px;  width: 676px;  height: 32px;  letter-spacing: .1px;  color: #636363;
+}
+
+.footerpicture
+{
+    position: absolute;  top: 2807px;  left: 700px;  width: 200px;  height: 480.29px;  transform: rotate(-6deg);
+}
+
+.contact_btn
+{ font-family: 'Maven Pro', sans-serif;  font-size: 24px;  font-weight: 900;  font-style: normal;  line-height: 21px;
+
+    position: absolute; border-width: 0px ;top: 3740px;  left: 560px;  width: 338px;  height: 55px;  letter-spacing: .1px;  color: #636363;
+}
+/* __________________________________________________________________________success page___________________________________________________________________________________________________ */
+
+.contact_btn2
+{ font-family: 'Maven Pro', sans-serif;  font-size: 64px;  font-weight: 900;  font-style: normal;  line-height: 21px;
+
+    position: absolute; border-width: 0px; top: 1250px;  left: 95px;  width: 1350px;  height: 100px;  letter-spacing: .1px;  color: #636363;
+}
+
+.congratulations
+{ font-family: 'Maven Pro', sans-serif;  font-size: 124px;  font-weight: 900;
+
+    position: absolute;  top: 335px;  left: 85px;  display: flex;  align-items: flex-end;
+ width: 976px;  height: 154px;  letter-spacing: -1.5px;  color: #ffcb4f;
+}
+
+.successpic
+{
+    position: absolute;  top: 400px;
+ left: 95px;  width: 1153px;  height: 710px;
+}
+
+.success_register
+{ font-family: 'Maven Pro', sans-serif;  font-size: 60px;  font-weight: 900;
+
+    position: absolute;  top: 1050px;  left: 270px;  display: flex;  align-items: flex-end;
+ width: 976px;  height: 154px;  letter-spacing: -1.5px;  color: #ffcb4f;
+}
+
+.welcome_friends1
+{ font-family: 'Maven Pro', sans-serif;  font-size: 24px;  font-weight: normal;  font-style: normal;  line-height: 56px;
+
+    position: absolute;  top: 530px;  left: -280px;  width: 647px;  height: 60px;  transform: rotate(-90deg);
+ letter-spacing: .1px;  color: #636363;
+}
+
+.welcome_friends2
+{ font-family: 'Maven Pro', sans-serif;  font-size: 24px;  font-weight: normal;  font-style: normal;  line-height: 56px;
+
+    position: absolute;  top: 740px;  left: 1351px;  width: 281px;  height: 60px;  transform: rotate(90deg);
+ letter-spacing: .1px;  color: #636363;
+}
+
+/* __________________________________________________________________________success page footer___________________________________________________________________________________________________ */
+.bottom_wave_success
+{
+    position: absolute;  top: 1800px;
+ left: 0;
+}
+
+.footertitle01_success
+{ font-family: 'Maven Pro', sans-serif;  font-size: 16px;  font-weight: bold;  font-style: normal;  line-height: 22px;
+
+    position: absolute;  top: 1900px;  left: 30px;  width: 444px;  height: 23px;  text-align: justify;  letter-spacing: .1px;  color: #3b3d3e;
+}
+
+.footercontent01_success
+{ font-family: 'Maven Pro', sans-serif;  font-size: 16px;  font-weight: normal;  font-style: normal;  line-height: 15px;
+
+    position: absolute;  top: 1930px;  left: 30px;  width: 300px;  height: 51px;  text-align: justify;  letter-spacing: .1px;  color: #3b3d3e;
+}
+
+.footertitle02_success
+{ font-family: 'Maven Pro', sans-serif;  font-size: 16px;  font-weight: bold;  font-style: normal;  line-height: 22px;
+
+    position: absolute;  top: 2170px;  left: 28px;  width: 444px;  height: 23px;  text-align: justify;  letter-spacing: .1px;  color: #3b3d3e;
+}
+
+.footercontent02_success
+{ font-family: 'Maven Pro', sans-serif; font-size: 16px;  font-weight: normal; font-style: normal;  line-height: 23px;
+
+    position: absolute;  top: 2195px;  left: 29px;  width: 326px;  height: 51px;  text-align: justify;  letter-spacing: .1px;  color: #3b3d3e;
+}
+
+.email_icon1_success
+{
+    position: absolute;  top: 2000px;
+ left: 26px;  width: 40px;  height: 40px;
+}
+
+.phone_icon1_success
+{
+    position: absolute;  top: 2050px;
+ left: 26px;  width: 40px;  height: 40px;
+}
+
+.facebook_icon1_success
+{
+    position: absolute;  top: 2110px;
+ left: 26px;  width: 40px;  height: 40px;
+}
+
+.email_icon2_success
+{
+    position: absolute;  top: 2270px;
+ left: 26px;  width: 40px;  height: 40px;
+}
+
+.phone_icon2_success
+{
+    position: absolute;  top: 2320px;
+ left: 26px;  width: 40px;  height: 40px;
+}
+
+.facebook_icon2_success
+{
+    position: absolute;  top: 2380px;
+ left: 26px;  width: 40px;  height: 40px;
+}
+
+
+.info1_success
+{ font-family: 'Maven Pro', sans-serif;  font-size: 16px;  font-weight: normal;  font-style: normal;  line-height: 19px;
+
+    position: absolute;  top: 2015px;  left: 90px;  display: flex;  align-items: center;  width: 328px;  height: 20px;  text-align: justify;  letter-spacing: .1px;  color: #3b3d3e;
+}
+
+.phone1_success
+{ font-family: 'Maven Pro', sans-serif;  font-size: 16px;  font-weight: normal;  font-style: normal;  line-height: 19px;
+
+    position: absolute;  top: 2065px;  left: 90px;  display: flex;  align-items: center;  width: 328px;  height: 20px;  text-align: justify;  letter-spacing: .1px;  color: #3b3d3e;
+}
+
+.facebook1_success
+{ font-family: 'Maven Pro', sans-serif;  font-size: 16px;  font-weight: normal;  font-style: normal;  line-height: 19px;
+
+    position: absolute;  top: 2125px;  left: 90px;  display: flex;  align-items: center;  width: 500px;  height: 20px;  text-align: right;  letter-spacing: .1px;  color: #3b3d3e;
+}
+
+
+.info2_success
+{ font-family: 'Maven Pro', sans-serif;  font-size: 16px;  font-weight: normal;  font-style: normal;  line-height: 19px;
+
+    position: absolute;  top: 2290px;  left: 90px;  display: flex;  align-items: center;  width: 328px;  height: 20px;  text-align: justify;  letter-spacing: .1px;  color: #3b3d3e;
+}
+
+.phone2_success
+{ font-family: 'Maven Pro', sans-serif;  font-size: 16px;  font-weight: normal;  font-style: normal;  line-height: 19px;
+
+    position: absolute;  top: 2330px;  left: 90px;  display: flex;  align-items: center;  width: 328px;  height: 20px;  text-align: justify;  letter-spacing: .1px;  color: #3b3d3e;
+}
+
+.facebook2_success
+{ font-family: 'Maven Pro', sans-serif;  font-size: 16px;  font-weight: normal;  font-style: normal;  line-height: 19px;
+
+    position: absolute;  top: 2395px;  left: 90px;  display: flex;  align-items: center;  width: 500px;  height: 20px;  text-align: right;  letter-spacing: .1px;  color: #3b3d3e;
+}
+
+.footerline_success
+{
+    position: absolute;  top: 2190px;  left: 250px;  width: 490px;  height: 0;  transform: rotate(90deg);
+ opacity: .4;  border: 1px solid #000;
+}
+
+.date1_success
+{ font-family: 'Maven Pro', sans-serif;  font-size: 40px;  font-weight: 500;  font-style: normal;  line-height: 40px;
+
+    position: absolute;  top: 2000px;  left: 550px;  display: flex;  align-items: center;  width: 560px;  height: 48px;  letter-spacing: .1px;  color: #3b3d3e;
+}
+
+.date2_success
+{ font-family: 'Maven Pro', sans-serif;  font-size: 40px;  font-weight: 500;  font-style: normal;  line-height: 40px;
+
+    position: absolute;  top: 2150px;  left: 550px;  display: flex;  align-items: center;  width: 560px;  height: 48px;  letter-spacing: .1px;  color: #3b3d3e;
+}
+
+.date3_success
+{ font-family: 'Maven Pro', sans-serif;  font-size: 40px;  font-weight: 500;  font-style: normal;  line-height: 40px;
+
+    position: absolute;  top: 2300px;  left: 550px;  display: flex;  align-items: center;  width: 560px;  height: 48px;  letter-spacing: .1px;  color: #3b3d3e;
+}
+
+.time1_success
+{ font-family: 'Maven Pro', sans-serif;  font-size: 30px;  font-weight: normal;  font-style: normal;  line-height: 24px;
+
+    position: absolute;  top: 2040px;  left: 550px;  display: flex;  align-items: center;  width: 560px;  height: 48px;  letter-spacing: .1px;  color: #636363;
+}
+
+.time2_success
+{ font-family: 'Maven Pro', sans-serif;  font-size: 30px;  font-weight: normal;  font-style: normal;  line-height: 24px;
+
+    position: absolute;  top: 2190px;  left: 550px;  display: flex;  align-items: center;  width: 560px;  height: 48px;  letter-spacing: .1px;  color: #636363;
+}
+
+.time3_success
+{ font-family: 'Maven Pro', sans-serif;  font-size: 30px;  font-weight: normal;  font-style: normal;  line-height: 24px;
+
+    position: absolute;  top: 2340px;  left: 550px;  display: flex;  align-items: center;  width: 560px;  height: 48px;  letter-spacing: .1px;  color: #636363;
+}
+
+.branch_success
+{ font-family: 'Maven Pro', sans-serif;  font-size: 16px;  font-weight: 500;  font-style: normal;  line-height: 24px;
+
+    position: absolute;  top: 2090px;  left: 555px;  width: 676px;  height: 32px;  letter-spacing: .1px;  color: #636363;
+}
+
+.footerpicture_success
+{
+    position: absolute;  top: 1457px;  left: 700px;  width: 200px;  height: 480.29px;  transform: rotate(-6deg);
+}
+
+.contact_btn_success
+{ font-family: 'Maven Pro', sans-serif;  font-size: 24px;  font-weight: 900;  font-style: normal;  line-height: 21px;
+
+    position: absolute; border-width: 0px; top: 2390px;  left: 560px;  width: 338px;  height: 55px;  letter-spacing: .1px;  color: #636363;
+}
+
+/* JUN BAO PUT THE CODE - 3 DEC 2021 END
+-------------------------------------------------- */
+/* ____________________________________________________________________________________________________________________________________________________________________________ */
